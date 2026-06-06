@@ -12,7 +12,7 @@ public partial class HospitalContext : DbContext
     {
     }
 
-    public virtual DbSet<Admission> Admissions { get; set; }
+    public virtual DbSet<Admission> Admissions { get; set; } 
 
     public virtual DbSet<Bed> Beds { get; set; }
 
